@@ -1,1 +1,1 @@
-perl mntemp.pl &
+perl mntemp.pl >nul &
